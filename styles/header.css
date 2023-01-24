@@ -1,0 +1,52 @@
+.header{
+    display: grid;
+    align-content: space-between;
+    border: 2px solid blue;
+    vertical-align: top;
+    grid-template-columns: 150px 1fr 60px;
+    height: 80px;
+}
+
+
+.header a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.logo-box{
+    padding: 0;
+    border: 2px solid green;
+    margin-left: 40px;
+    height: 80px;
+    object-fit:fill
+}
+
+
+.movie-logo{
+    vertical-align: top;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.menu-links{
+    margin-left: 480px;
+    border: 2px solid red;
+    display: grid;
+    align-items: stretch;
+    align-items: space-between;
+    font-size: 12px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    column-gap: 20px;
+    height: 80px;
+}
+
+.menu-box{
+    display: flex;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    margin-right: 65px;
+}
