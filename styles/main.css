@@ -1,0 +1,54 @@
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    border: 0px solid green;
+    margin-top: 120px;
+}
+
+.info{
+    color: white;
+    border: 0px solid yellow;
+}
+
+.hub-title{
+    font-weight: bold;
+    font-size: 95px;
+    padding: 0;
+    margin: 0;
+}
+
+.sub-title{
+    margin: 0;
+    padding: 0;
+}
+
+.explore-btn{
+    background-color: white;
+    color: black;
+    border-radius: 18px;
+    border: none;
+    font-weight: bold;
+    padding: 10px 62px 10px 62px;
+    margin: 35px 0px 0px 0px;
+}
+
+.thumbnails{
+    display: grid;
+    grid-template-rows: 250px;
+    grid-template-columns: 180px 180px;
+    border: 0px solid red;
+    column-gap: 40px;
+    row-gap: 35px;
+    justify-content: center;
+}
+
+.thumbnail{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.size-problem{
+    height: 268px;
+}
