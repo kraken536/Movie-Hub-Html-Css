@@ -45,6 +45,11 @@
     margin: 0;
     padding: 0;
     border: 0px solid white;
+    transition: color 0.35s;
+}
+
+.menu-link:hover{
+    color: gray;
 }
 
 .menu-link-last{
