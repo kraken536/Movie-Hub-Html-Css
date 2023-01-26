@@ -32,11 +32,12 @@
     padding: 10px 62px 10px 62px;
     margin: 35px 0px 0px 0px;
     cursor: pointer;
-    transition: backgroung-color 0.15s;
+    transition: backgroung-color 0.15s, transform 0.35s;
 }
 
 .explore-btn:hover{
     background-color: yellow;
+    transform: translateY(-5px);
 }
 
 .thumbnails{
